@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"painting-guard\startup_stm32f429xx.o"
+"painting-guard\main.o"
+"painting-guard\stm32f4xx_it.o"
+"painting-guard\stm32f4xx_hal_msp.o"
+"painting-guard\stm32f4xx_hal_i2c.o"
+"painting-guard\stm32f4xx_hal_i2c_ex.o"
+"painting-guard\stm32f4xx_hal_rcc.o"
+"painting-guard\stm32f4xx_hal_rcc_ex.o"
+"painting-guard\stm32f4xx_hal_flash.o"
+"painting-guard\stm32f4xx_hal_flash_ex.o"
+"painting-guard\stm32f4xx_hal_flash_ramfunc.o"
+"painting-guard\stm32f4xx_hal_gpio.o"
+"painting-guard\stm32f4xx_hal_dma_ex.o"
+"painting-guard\stm32f4xx_hal_dma.o"
+"painting-guard\stm32f4xx_hal_pwr.o"
+"painting-guard\stm32f4xx_hal_pwr_ex.o"
+"painting-guard\stm32f4xx_hal_cortex.o"
+"painting-guard\stm32f4xx_hal.o"
+"painting-guard\stm32f4xx_hal_exti.o"
+"painting-guard\system_stm32f4xx.o"
+--strict --scatter "Painting-Guard\Painting-Guard.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Painting-Guard.map" -o Painting-Guard\Painting-Guard.axf
