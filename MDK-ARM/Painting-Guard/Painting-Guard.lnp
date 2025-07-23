@@ -3,8 +3,6 @@
 "painting-guard\main.o"
 "painting-guard\stm32f4xx_it.o"
 "painting-guard\stm32f4xx_hal_msp.o"
-"painting-guard\stm32f4xx_hal_i2c.o"
-"painting-guard\stm32f4xx_hal_i2c_ex.o"
 "painting-guard\stm32f4xx_hal_rcc.o"
 "painting-guard\stm32f4xx_hal_rcc_ex.o"
 "painting-guard\stm32f4xx_hal_flash.o"
